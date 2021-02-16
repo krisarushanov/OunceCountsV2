@@ -1,16 +1,18 @@
-const db = require('../models');
+const wolfpackInfoController = require('../../controllers/wolfpackInfoController');
 
-const express = require('express');
-const Wolfpack = require('../models/wolfpack');
-const User = require('../models/user');
-const WolfpackBackpack = require('../models/wolfpackBackpack');
-const emergencyContact = require('../models/emergencyContact');
-const router = express.Router();
+const router = require('express').Router();
 
-router.get('/', (req, res) => {
+// Matches with "/api/wolfpackInfo"
+router
+  .route('/')
+  .get(wolfpackInfoController.findWolfpackById)
 
-
-})
+// Matches with "/api/wolfpackInfo/:id"
+router
+  .route('/:id')
+  .get(wolfpackInfoController.findWpBackpackById)
+  .get(wolfpackInfoController.findUserById)
+  .get(wolfpackInfoController.findWolfPackMemberById);
 
 
 module.exports = router;
