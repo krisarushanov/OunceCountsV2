@@ -4,6 +4,7 @@ const session = require(`express-session`);
 // firebase authentication?
 const passport = require(`./config/passport`);
 const routes = require("./routes");
+const sequelize = require(`sequelize`);
 
 
 // eslint-disable-next-line no-magic-numbers
