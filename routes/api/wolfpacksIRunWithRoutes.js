@@ -8,10 +8,11 @@ router
   .post(wolfpacksIRunWithController.createWolfpack);
 
 // Matches with "/api/wolfpacksIRunWith/:id"
+/*
 router
   .route('/:id')
   .get(wolfpacksIRunWithController.findById)
   .put(wolfpacksIRunWithController.update);
-
+*/
 module.exports = router;
 
