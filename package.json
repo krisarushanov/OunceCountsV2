@@ -26,7 +26,11 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+<<<<<<< HEAD
     "express-session": "^1.17.1",
+=======
+    "firebase": "^8.2.7",
+>>>>>>> develop
     "if-env": "^1.0.4",
     "mysql": "^2.18.1",
     "mysql2": "^2.2.5",
