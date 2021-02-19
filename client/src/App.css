@@ -7,7 +7,7 @@
   margin: 0px;
   text-align: left;
   display: inline-block;
-  vertical-align:top;
+  vertical-align: top;
 }
 
 nav {
@@ -15,10 +15,10 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 10px;
-  background: rgb(139, 184, 139);
+  background: #336b87;
   color: white;
-
 }
+
 .nav-links {
   width: 40%;
   display: flex;
@@ -44,4 +44,3 @@ nav {
   height: 400px;
   width: 500px;
 }
-

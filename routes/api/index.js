@@ -8,6 +8,4 @@ router.use("/posts", postRoutes);
 //alpha wolfpack routes
 router.use("/alphapack", alphapackRoutes)
 
-
-
 module.exports = router;
