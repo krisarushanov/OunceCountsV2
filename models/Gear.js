@@ -1,20 +1,17 @@
-module.exports = function(sequelize, DataTypes) {
-    const Gear = sequelize.define("Gear", {
-        weight: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-            validate: {
-                len: [1]
-            },
-        brand: {
-            type: DataTypes.STRING,
-            allowNull:false,
-            validate: {
-                len: [1]
-            }
-        },
-
-       }
-    })
-   return Gear;
-}
+module.exports = (sequelize, DataTypes) => {
+  const Gear = sequelize.define("Gear", {
+    weight: { type: DataTypes.INTEGER, allowNull: false },
+    brand: { type: DataTypes.STRING, allowNull: false },
+  });
+ 
+  Gear.associate = (models) => {
+    Gear.belongsTo(models.wolfpackBackpack, {
+      through: "gear_wolfpackBackpack",
+      foreignKey: {
+        allowNull: false,
+      },
+    });
+  };
+ 
+  return Gear;
+};

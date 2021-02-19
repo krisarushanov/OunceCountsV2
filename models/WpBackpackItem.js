@@ -1,30 +1,28 @@
-
-module.exports = function(sequelize, DataTypes) {
-    const Wolf_Pack_Backpack_Item = sequelize.define("Wolf_Pack_Backpack_Item", {
-        accounted_for: {
-            type: DataTypes.FLOAT,
-            allowNull: false,
-            validate: {
-                len: [1]
-            },
-       }
-    })
-    Wolf_Pack_Backpack_Item.associate = models  => {
-           Wolf_Pack_Backpack_Item.hasMany(models.Gear, {
-            onDelete: "cascade"
-        })
-       Wolf_Pack_Backpack_Item.belongto(models.Wolf_Pack_Backpack, {
-           through:"wolf_pack_backpack_wolfpack",
-           foreignKey: {
-               allowNull: false
-           }
-       }
-
-       )}
-       
-   return Wolf_Pack_Backpack_Item;
-}
-
+module.exports = function (sequelize, DataTypes) {
+  const wpbackpackItem = sequelize.define("wpbackpackItem", {
+    accounted_for: {
+      type: DataTypes.FLOAT,
+      allowNull: false,
+      validate: {
+        len: [1],
+      },
+    },
+  });
+  wpbackpackItem.associate = (models) => {
+    wpbackpackItem.hasMany(models.Gear, {
+      onDelete: "cascade",
+    });
+  };
+  wpbackpackItem.associate = (models) => {
+    wpbackpackItem.belongsTo(models.wolfpackBackpack, {
+      through: "wolf_pack_backpack_wolfpack",
+      foreignKey: {
+        allowNull: false,
+      },
+    });
+  };
+  return wpbackpackItem;
+};
 // const Wolf_Pack_Backpack = sequelize.define("wolf_pack_backpack")
 // const Gear = sequelize.define("gear")
 
