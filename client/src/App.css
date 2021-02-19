@@ -2,14 +2,21 @@
   text-align: center;
 }
 
+.logo {
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 10px;
-  background: #336B87;
+  background: #336b87;
   color: white;
-
 }
 
 .nav-links {
@@ -18,26 +25,22 @@ nav {
   justify-content: space-around;
   align-items: center;
   list-style: none;
-  font-weight: bold;
 }
 
-a:link {
-  text-decoration: none;
-  color: white;
+.card {
+  display: inline;
+  display: block;
 }
 
-a:visited {
-  text-decoration: none;
-  color: white;
-}git
-
-a:hover {
-  text-decoration: none;
-  color: #2A3132;
+.card-body {
+  text-align: center;
 }
 
-a:active {
-  text-decoration: underline;
+.title {
+  text-align: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600&family=Neucha&family=Noticia+Text:wght@400;700&family=Open+Sans:wght@300;400;600&family=Patrick+Hand&family=Patrick+Hand+SC&family=Roboto:wght@300;400&display=swap');
+#pictures {
+  height: 400px;
+  width: 500px;
+}
