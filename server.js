@@ -2,14 +2,11 @@ const express = require(`express`);
 const app = express();
 const session = require(`express-session`);
 // firebase authentication?
-const passport = require(`./config/passport`);
 const routes = require("./routes");
-const sequelize = require(`sequelize`);
 
 
-// eslint-disable-next-line no-magic-numbers
 
-const db = require(`./models`);
+const db = require('./models');
 
 const PORT = process.env.PORT || 3001;
 
@@ -25,6 +22,8 @@ app.use(routes);
 
 
 // Start the API server
-app.listen(PORT, function() {
-  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
+db.sequelize.sync({ force: true }).then(function() {
+  app.listen(PORT, function() {
+    console.log("App listening on PORT " + PORT);
+  });
 });
