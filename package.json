@@ -25,6 +25,7 @@
   "homepage": "https://github.com/daniarinker/OunceCounts#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "express-session": "^1.17.1",
     "firebase": "^8.2.7",
     "if-env": "^1.0.4",
     "sequelize": "^6.5.0"

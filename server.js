@@ -2,7 +2,7 @@ const express = require(`express`);
 const app = express();
 const session = require(`express-session`);
 // firebase authentication?
-const passport = require(`./config/passport`);
+// const passport = require(`./config/passport`);
 const routes = require("./routes");
 const sequelize = require(`sequelize`);
 
