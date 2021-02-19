@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.logo {
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  display: inline-block;
+  vertical-align:top;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10px;
+  background: rgb(139, 184, 139);
+  color: white;
+
+}
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.card {
+  display: inline;
+  display: block;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+#pictures {
+  height: 400px;
+  width: 500px;
+}
+
