@@ -7,14 +7,37 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 10px;
-  background: rgb(139, 184, 139);
+  background: #336B87;
   color: white;
 
 }
+
 .nav-links {
   width: 40%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
+  font-weight: bold;
 }
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}git
+
+a:hover {
+  text-decoration: none;
+  color: #2A3132;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600&family=Neucha&family=Noticia+Text:wght@400;700&family=Open+Sans:wght@300;400;600&family=Patrick+Hand&family=Patrick+Hand+SC&family=Roboto:wght@300;400&display=swap');
