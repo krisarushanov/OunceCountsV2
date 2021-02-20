@@ -5,15 +5,15 @@
 .logo {
   padding: 0px;
   margin: 0px;
-  text-align: left;
+  text-align: center;
   display: inline-block;
-  vertical-align:top;
+  vertical-align: center;
 }
 
 nav {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: right;
   min-height: 10px;
   background: rgb(139, 184, 139);
   color: white;
@@ -23,8 +23,9 @@ nav {
   width: 40%;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: right;
   list-style: none;
+  padding: 10px;
 }
 
 .card {
@@ -38,5 +39,10 @@ nav {
 
 .title {
   text-align: center;
+}
+
+#picture {
+  height: 400px;
+  width: 400px;
 }
 
