@@ -2,10 +2,18 @@
   text-align: center;
 }
 
+.logo {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: center;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: right;
   min-height: 10px;
   background: rgb(139, 184, 139);
   color: white;
@@ -15,6 +23,26 @@ nav {
   width: 40%;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: right;
   list-style: none;
+  padding: 10px;
 }
+
+.card {
+  display: inline;
+  display: block;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+#picture {
+  height: 400px;
+  width: 400px;
+}
+
