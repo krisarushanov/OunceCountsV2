@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Nav() {
   return (
     <nav>
-        <h3 class="logo">OunceCounts</h3>
+        <h1 class="title">OunceCounts</h1>
         <ul className="nav-links">
             <Link to="/about">
             <li>About</li>

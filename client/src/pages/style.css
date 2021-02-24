@@ -1,0 +1,39 @@
+.card {
+    display: inline;
+    display: block;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  #title {
+    text-align: center;
+  }
+  
+  #picture {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    padding: 40px;
+  }
+  
+  .bio {
+    float: right;
+    padding: 20px;
+    padding-top: 150px;
+  
+  }
+
+  #members {
+    padding: 50px;
+    border: 5px;
+  }
+
+  #search {
+    padding: 100px;
+  }
+
+  #packmember {
+    padding: 50px;
+  }

@@ -27,22 +27,3 @@ nav {
   list-style: none;
   padding: 10px;
 }
-
-.card {
-  display: inline;
-  display: block;
-}
-
-.card-body {
-  text-align: center;
-}
-
-.title {
-  text-align: center;
-}
-
-#picture {
-  height: 400px;
-  width: 400px;
-}
-
