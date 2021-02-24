@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": "",
-    "database": "ouncecounts_development",
+    "password": "elemelon23",
+    "database": "ouncecounts",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
