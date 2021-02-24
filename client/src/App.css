@@ -12,18 +12,19 @@
 
 nav {
   display: flex;
-  justify-content: space-around;
-  align-items: right;
-  min-height: 10px;
+  /* justify-content: space-around; */
+  /* align-items: right; */
+  /* min-height: 10px; */
   background: rgb(139, 184, 139);
   color: white;
+  padding-top: 30px;
 
 }
 .nav-links {
   width: 40%;
   display: flex;
   justify-content: space-around;
-  align-items: right;
+  text-align: center;
   list-style: none;
   padding: 10px;
 }
