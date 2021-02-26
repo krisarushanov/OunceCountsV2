@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import Nav from './Nav.js';
 import About from './pages/About';
-import Backpack from './components/Backpack/Backpack';
+import Backpack from './pages/Backpack';
 
 //import Alphapack from './pages/Alphapack';
 //import Sandbox from './pages/Sandbox';
