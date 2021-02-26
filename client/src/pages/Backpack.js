@@ -29,9 +29,9 @@ function Backpack(props) {
             className="todo-list stack-large stack-exception"
             aria-labelledby="list-heading"
           >
-          <Todo name = "Example" completed={false} id="todo-0"/>
-          <Todo name= "Example" completed={false} id ="todo-1"/>
-          <Todo name= "Example" completed={false} id="todo-2"/>
+          <Todo name = "First-aid Kit" completed={false} id="todo-0"/>
+          <Todo name= "GPS Navigation" completed={false} id ="todo-1"/>
+          <Todo name= "Fire Starter" completed={false} id="todo-2"/>
           
         
         </ul>
