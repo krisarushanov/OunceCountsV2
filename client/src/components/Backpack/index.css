@@ -88,15 +88,15 @@ body {
 }
 .btn__danger {
   color: #fff;
-  background-color: #ca3c3c;
-  border-color: #bd2130;
+  background-color: #763626;
+  border-color: #49050c;
 }
 .btn__filter {
   border-color: lightgrey;
 }
 .btn__primary {
   color: #fff;
-  background-color: #000;
+  background-color: #336b87;
 }
 .btn-group {
   display: flex;
