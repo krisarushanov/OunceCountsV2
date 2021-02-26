@@ -37,3 +37,11 @@
   #packmember {
     padding: 50px;
   }
+
+  #backpack {
+    /* position: center; */
+    position: center;
+    left:30%;
+    top:30%;
+  }
+  

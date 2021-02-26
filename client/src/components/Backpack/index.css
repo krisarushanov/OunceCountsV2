@@ -291,3 +291,11 @@ body {
 .c-cb > input[type="checkbox"]:checked + label::after {
   opacity: 1;
 }
+
+#additem {
+  background-color: lightblue;
+  text-align: center;
+  display: flex;
+
+}
+

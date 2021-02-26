@@ -1,9 +1,12 @@
+/* eslint-disable react/jsx-no-duplicate-props */
 import React from "react";
 
 
 function Form(props) {
   return (
+  <div className="container">
     <form>
+      
       <h2 className="label-wrapper">
         <label htmlFor="new-todo-input" className="label__lg">
           What do you need to pack?
@@ -16,10 +19,11 @@ function Form(props) {
         name="text"
         autoComplete="off"
       />
-      <button type="submit" className="btn btn__primary btn__lg">
+      <button type="submit" className="btn btn__primary btn__lg" id="additem">
         Add
       </button>
     </form>
+    </div>
   );
 }
 

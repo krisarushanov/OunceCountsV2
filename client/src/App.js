@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import './App.css';
-import Nav from './Nav.js';
+import Nav from './components/Nav/Nav';
 import About from './pages/About';
 import Backpack from './pages/Backpack';
 import Alphapack from './pages/Alphapack';
