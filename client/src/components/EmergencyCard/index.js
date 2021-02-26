@@ -1,17 +1,31 @@
-import React from "react";
-import "./style.css";
+import React, { useEffect } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import axios from 'axios';
+
 function Card(props) {
-    return (
-      <div
-        className="card"
-        style={{
-          backgroundImage: props.image ? `url(${props.image})` : "none"
-        }}
-      >
-        {!props.image && <i className="fa fa-spinner fa-spin" aria-hidden="true" />}
+  const { fName, lName, pNum } = props.emergencyContactObj;
+
+  useEffect(() => {
+    axios.post("/api/alphapack")
+      .then(res => { 
+        console.log(res) 
+      })
+      .catch(err => { 
+        console.log(err) 
+      })
+  }, [])
+
+  return (
+    <div className="card">
+      <div className="card-header">
+        Emergency Contact:
+         </div>
+      <div className="cardbody">
+        <p>Name:{fName + " " + lName}</p>
+        <p>Phone Number: {pNum}</p>
       </div>
-    );
-  }
-  
-  export default Card;
-  
+    </div>
+  )
+}
+
+export default Card;

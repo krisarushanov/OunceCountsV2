@@ -1,15 +1,18 @@
 import React from "react";
-import Nav from "../components/Nav";
-import ContainerChat from "../components/ContainerChat";
+// import ContainerChat from "../../../ContainerChat";
 import EmergencyCard from "../components/EmergencyCard";
 import Jumbotron from "../components/Jumbotron";
 
-const Wolfpack = () => {
+const Wolfpack = (props) => {
     return (
-        <Nav >
-            <ContainerChat>
+        <div className="container-fluid">
+            <Jumbotron >
+                <h1>Wolfpack Name</h1>
+                <EmergencyCard emergencyContactObj={{ fName: "Ben", lName: "Smith", pNum: "2145552456" }} />
+            </Jumbotron>
 
-            </ContainerChat>
-        </Nav>
+        </div>
     )
 }
+
+export default Wolfpack
