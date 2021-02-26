@@ -19,15 +19,11 @@ function App() {
       {/* <Route exact path="/" component={Login} /> */}
         {/* <Route path ="/sandbox" component={Sandbox}/> */}
         <Route path="/about" component={About}/>
-<<<<<<< HEAD
-        <Route path="/wolfpack" component={Wolfpack}/>
-=======
         <Route path="/alphapack" component={Alphapack}/>
         <Route path="/backpack" component={Backpack}/>
         <Route path="/wolfpack" component={Wolfpack}/>
         
 
->>>>>>> 96f88b186ef73fc0c3f7133039d11dcb683f223d
       </Switch>
     </div>
     </Router>
