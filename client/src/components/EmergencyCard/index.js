@@ -6,7 +6,7 @@ function Card(props) {
   const { fName, lName, pNum } = props.emergencyContactObj;
 
   useEffect(() => {
-    axios.post("/api/alphapack")
+    axios.get("/api/alphapack")
       .then(res => { 
         console.log(res) 
       })
