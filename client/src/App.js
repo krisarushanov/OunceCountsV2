@@ -4,6 +4,7 @@ import './App.css';
 import Nav from './components/Nav/Nav';
 import About from './pages/About';
 import Wolfpack from './pages/Wolfpack';
+import Backpack from './pages/Backpack'
 //import Sandbox from './pages/Sandbox';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -17,6 +18,8 @@ function App() {
         {/* <Route path ="/sandbox" component={Sandbox}/> */}
         <Route path="/about" component={About}/>
         <Route path="/alphapack" component={Wolfpack}/>
+        <Route path="/backpack" component={Backpack}/>
+        
       </Switch>
     </div>
     </Router>
