@@ -16,7 +16,7 @@ function App() {
       {/* <Route exact path="/" component={Login} /> */}
         {/* <Route path ="/sandbox" component={Sandbox}/> */}
         <Route path="/about" component={About}/>
-        <Route path="/alphapack" component={Wolfpack}/>
+        <Route path="/wolfpack" component={Wolfpack}/>
       </Switch>
     </div>
     </Router>
