@@ -1,10 +1,11 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
-import './App.css';
 import { Link } from 'react-router-dom';
 
 function Nav() {
   return (
     <nav>
+      <img src="/logo512.png" width="30" height="30" className="d-inline-block align-top" alt="Ounce Counts" id="logo"/>
         <h3 class="logo">OunceCounts</h3>
         <ul className="nav-links">
             <Link to="/about">

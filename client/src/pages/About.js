@@ -19,8 +19,8 @@ function About() {
               <h1 className="title" id="title">Ounce Counts Creators</h1>
             <hr />
               <div className="card-body">
-              Introducing the creators of Ounce Counts. We are a team of full stack engineering students who set out on an adventure to
-              help you pack safely for yours.
+              Introducing the creators of Ounce Counts. <br></br>We are a team of full stack engineering students who set out on an adventure to
+              help you pack safely for yours. <br></br>Navigate your way through our application to build a backpack or wolfpack for those of you traveling in groups.
             </div>
             </div>
             <div className="row">

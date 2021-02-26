@@ -5,6 +5,7 @@
   
   .card-body {
     text-align: center;
+    position: center;
   }
   
   #title {
@@ -44,4 +45,18 @@
     left:30%;
     top:30%;
   }
-  
+  #wolves {
+    text-align: center;
+    text-align-last: center;
+  }
+
+  #backpack {
+    align-content:center;
+    max-width:70rem;
+  background: #fff;
+  margin: 2rem 0 4rem 0;
+  padding: 1rem;
+  position: center;
+  right: 50%;
+  left: 35%;
+  }

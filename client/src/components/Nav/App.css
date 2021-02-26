@@ -3,9 +3,10 @@ nav {
     /* justify-content: space-around; */
     /* align-items: right; */
     /* min-height: 10px; */
-    background: rgb(139, 184, 139);
+    background: #90AFC5;
     color: white;
-    padding-top: 30px;
+    padding-top: 20px;
+    padding-left: 30px; 
   
   }
   .nav-links {
@@ -16,4 +17,5 @@ nav {
     list-style: none;
     padding: 10px;
   }
+
   
