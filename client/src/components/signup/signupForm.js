@@ -1,8 +1,8 @@
 import { useState, useEffect, useContext } from "react";
 import { Form, Button, Alert } from "react-bootstrap";
 import { Link, useHistory } from "react-router-dom";
-
-// import { signup, UserContext } from "./UserProvider";
+import axios from "axios";
+import { signup, UserContext } from "./UserProvider";
 
 export function SignupForm() {
   const [fname, setFname] = useState("");
@@ -11,7 +11,6 @@ export function SignupForm() {
   const [emergencyContactName, setemergencyContactName] = useState("");
   const [emergencyContactPhone, setemergencyContactPhone] = useState("");
   const [password, setPassword] = useState("");
-  const [optIn, setOptIn] = useState("");
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [result, setResult] = useState(null);
   const [error, setError] = useState("");
@@ -39,8 +38,9 @@ export function SignupForm() {
     setIsSubmitted(true);
     console.log("---------------Starting sign up");
     setIsSigningUp(true);
-    const signupResult = await signup({ email, password, fname, lname, optIn, emergencyContactName, emergencyContactPhone });
+    const signupResult = await signup({ email, password, fname, lname, emergencyContactName, emergencyContactPhone });
     console.log("---------Setting sign up result");
+    axios.post("/api/user", { email, password, fname, lname, emergencyContactName, emergencyContactPhone }).then(res => {console.log(res)}).catch(err=> {console.log(err)});
     setResult(signupResult);
   };
 
@@ -80,7 +80,7 @@ export function SignupForm() {
                 placeholder="Enter the Name of your emergency contact"
                 value={lname}
                 onChange={(e) => {
-                  setLname(e.target.value.trim());
+                  setemergencyContactName(e.target.value.trim());
                 }}
               />
             </Form.Group>
@@ -91,7 +91,7 @@ export function SignupForm() {
                 placeholder="Enter the phone number of your emergency contact"
                 value={lname}
                 onChange={(e) => {
-                  setLname(e.target.value.trim());
+                  setemergencyContactPhone(e.target.value.trim());
                 }}
               />
             </Form.Group>
@@ -120,7 +120,7 @@ export function SignupForm() {
                 }}
               />
             </Form.Group>
-            <Form.Group controlId="formBasicCheckbox">
+            {/* <Form.Group controlId="formBasicCheckbox">
               <Form.Check
                 type="checkbox"
                 label="Yes! I would like to receive updates"
@@ -129,7 +129,7 @@ export function SignupForm() {
                   setOptIn(e.target.checked);
                 }}
               />
-            </Form.Group>
+            </Form.Group> */}
             <Button variant="primary" type="submit">
               Submit
             </Button>
