@@ -2,7 +2,7 @@ import { useState, useEffect, useContext } from "react";
 import { Form, Button, Alert } from "react-bootstrap";
 import { Link, useHistory } from "react-router-dom";
 
-import { signup, UserContext } from "./UserProvider";
+// import { signup, UserContext } from "./UserProvider";
 
 export function SignupForm() {
   const [fname, setFname] = useState("");
@@ -83,6 +83,7 @@ export function SignupForm() {
                   setLname(e.target.value.trim());
                 }}
               />
+            </Form.Group>
             <Form.Group controlId="formEmergencyContactPhone">
               <Form.Label>Emergency COntact Phone Number</Form.Label>
               <Form.Control

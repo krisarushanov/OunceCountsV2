@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const alphapackController = require("../../controllers/alphapackController");
 
-// Matches with "/api/posts"
+// Matches with "/api/alphapack"
 router
   .route("/")
   .get(alphapackController.findAll)
@@ -14,9 +14,10 @@ router
   .put(alphapackController.update)
   .delete(alphapackController.remove);
 
-router
-  .get("/", function(req, res) {
-  console.log("HELLO");
-});
+// router
+
+//   .get("/", function(req, res) {
+//   console.log("HELLO");
+// });
 
 module.exports = router;

@@ -2,9 +2,10 @@ import { useState } from "react";
 import { Form, Button, Alert } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import { login } from "./UserProvider";
 
-export function Login() {
+import { signin } from "./UserProvider";
+
+export function SignIn() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
@@ -12,7 +13,7 @@ export function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const result = await login(email, password);
+      const result = await signin(email, password);
       if (!result.success) {
         setError(result.error.message);
       }
@@ -54,10 +55,10 @@ export function Login() {
         </Button>
       </Form>
       <p>
-        Don't have an account? <Link to="/signup">Sign up here!</Link>
+        Don't have an account? <Link to="/signin">Sign up here!</Link>
       </p>
     </div>
   );
 }
 
-export default Login;
+export default SignIn;

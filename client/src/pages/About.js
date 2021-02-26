@@ -12,12 +12,12 @@ function About() {
     <div>
       <div className="container">
       <main className="row">
-            <h1 className="title">Ounce Counts Creators</h1>
+            <h1 className="title" id="title">Ounce Counts Creators</h1>
             <hr />
             <div className="card">
               <div className="card-body">
                   These students were matched up together to work on group projects. 
-                  They thouroughly enjoy working with one another 
+                  They thouroughly enjoy working with one another. The really came together and gave it their all even though stress was within each of them.
             </div>
             </div>
             <div className="row">
@@ -52,7 +52,7 @@ function About() {
                   <div className="col-lg-6 mb-4">
                     <img className="img-fluid portfolio-pictures" src={kris} alt="Kristena Arushanov" id="picture"/>
                     <p>Kristena Arushanov<br />
-                      <a href="" target="_blank">LinkedIn</a><br />
+                      <a href="https://www.linkedin.com/in/kris-arushanov-39623a115/" target="_blank">LinkedIn</a><br />
                       <a href="https://github.com/krisarushanov" target="_blank">GitHub</a>
                     </p>
                   </div>
