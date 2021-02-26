@@ -16,6 +16,9 @@ function Nav() {
             <Link to="/backpack">
             <li>Backpack</li>
             </Link>
+            <Link to ="/wolfpack">
+              <li>Wolfpack</li>
+            </Link>
         </ul>
     </nav>
   );
