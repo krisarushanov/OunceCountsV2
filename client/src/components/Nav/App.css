@@ -1,0 +1,21 @@
+nav {
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: right; */
+    /* min-height: 10px; */
+    background: #90AFC5;
+    color: white;
+    padding-top: 20px;
+    padding-left: 30px; 
+  
+  }
+  .nav-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+  }
+
+  

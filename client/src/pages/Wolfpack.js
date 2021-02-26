@@ -18,4 +18,4 @@ const Wolfpack = (props) => {
     )
 }
 
-export default Wolfpack
+export default Wolfpack;

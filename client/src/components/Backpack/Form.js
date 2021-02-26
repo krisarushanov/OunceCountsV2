@@ -6,7 +6,7 @@ function Form(props) {
     <form>
       <h2 className="label-wrapper">
         <label htmlFor="new-todo-input" className="label__lg">
-          What do you need to pack?
+          Enter an item:
         </label>
       </h2>
       <input
@@ -15,6 +15,7 @@ function Form(props) {
         className="input input__lg"
         name="text"
         autoComplete="off"
+        placeholder="Name of Item"
       />
       <button type="submit" className="btn btn__primary btn__lg">
         Add
