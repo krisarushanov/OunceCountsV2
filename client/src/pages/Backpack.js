@@ -5,7 +5,7 @@ import Form from'../components/Backpack/Form';
 import '../components/Backpack/FilterButton'
 import FilterButton from '../components/Backpack/FilterButton';
 import Container from '../components/Grid/Container';
-import Col from '../components/Grid/Col';
+
 
 
 function addTask(name) {
