@@ -1,6 +1,11 @@
+import "./index.html";
+const { Component } = require('react');
 const app = require('express')();
 const http = require('http').Server(app);
 const io = require('socket.io')(http);
+
+class ContainerChat extends Component{
+  reander() {
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
@@ -31,6 +36,10 @@ io.on('connection', (socket) => {
     })
   })
 });
+  }
+}
+
+export default ContainerChat;
 // const app = require('express')();
 // const http = require('http').Server(app);
 // const io = require('socket.io')(http);
