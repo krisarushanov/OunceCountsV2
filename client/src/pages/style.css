@@ -1,0 +1,62 @@
+.card {
+    display: inline;
+    display: block;
+  }
+  
+  .card-body {
+    text-align: center;
+    position: center;
+  }
+  
+  #title {
+    text-align: center;
+  }
+  
+  #picture {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    padding: 40px;
+  }
+  
+  .bio {
+    float: right;
+    padding: 20px;
+    padding-top: 150px;
+  
+  }
+
+  #members {
+    padding: 50px;
+    border: 5px;
+  }
+
+  #search {
+    padding: 100px;
+  }
+
+  #packmember {
+    padding: 50px;
+  }
+
+  #backpack {
+    /* position: center; */
+    position: center;
+    left:30%;
+    top:30%;
+  }
+  #wolves {
+    text-align: center;
+    text-align-last: center;
+  }
+
+  #backpack {
+    align-content:center;
+    max-width:70rem;
+  background: #fff;
+  margin: 2rem 0 4rem 0;
+  padding: 1rem;
+  position: center;
+  right: 50%;
+  left: 35%;
+  }
