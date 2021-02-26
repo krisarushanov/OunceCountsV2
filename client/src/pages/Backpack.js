@@ -25,7 +25,7 @@ function Backpack(props) {
             <FilterButton />
             <FilterButton />
           </div>
-          <h2 id="list-heading">Items in you Backpack</h2>
+          <h2 id="list-heading">Items in your Backpack</h2>
           <ul
             role="list"
             className="todo-list stack-large stack-exception"
