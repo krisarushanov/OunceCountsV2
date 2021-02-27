@@ -1,5 +1,6 @@
 const router = require("express").Router();
-const wolfpackRoutes = require("./wolfpackInfoRoutes");
+const wolfpackInfoRoutes = require("./wolfpackInfoRoutes");
+const alphapackRoutes = require("./alphapack");
 // const userRoutes = require("./user");
 const wolfpackBackpackRoutes = require("./backpack");
 
