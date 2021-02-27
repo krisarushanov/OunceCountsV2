@@ -17,13 +17,6 @@ app.use(index);
 
 const server = http.createServer(app);
 const io = socketIo(server); // < Interesting!
-const getApiAndEmit = async socket => {
-    try{
-      socket.emit("FromAPI", res.data.currently.temperature); // Emitting a new message. It will be consumed by the client
-    } catch (error) {
-      console.error(`Error: ${error.code}`);
-    }
-  };
 
 let interval;
 io.on("connection", socket => {
