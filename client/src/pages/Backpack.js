@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable jsx-a11y/no-redundant-roles */
 import React from 'react';
 import Todo from "../components/Backpack/Todo";
 import '../components/Backpack/index.css';
@@ -14,6 +16,7 @@ function addTask(name) {
 
 function Backpack(props) {
     return (
+
   
  <Container>
         
@@ -36,22 +39,18 @@ function Backpack(props) {
         <div className="card-body"  > 
         <h1 style={{fontSize:"50px",fontWeight:"800", letterSpacing: "1.13px"}}>Wolfpack</h1>
         <h2 style={{fontSize:"25px"}} >Collaborate on your adventure Backpack
-        with your Wolfpack to stay safe and avoid overpacking.
-       
-        </h2>
+        with your Wolfpack to stay safe and avoid overpacking.</h2>
         </div>
         </div>
         </div>
-
-      
         </div>
         </div>
-
-
-      
         
         <div className="col"> 
         <div className="todoapp stack-large">
+
+ 
+    
          <Form addTask={addTask} />
           <div className="filters btn-group stack-exception">
             <FilterButton />

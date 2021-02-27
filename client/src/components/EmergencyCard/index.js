@@ -5,8 +5,10 @@ import axios from 'axios';
 function Card(props) {
   const { fName, lName, pNum } = props.emergencyContactObj;
 
+  
+
   useEffect(() => {
-    axios.get("/api/alphapack")
+    axios.get("/api/wolfpack")
       .then(res => { 
         console.log(res) 
       })
