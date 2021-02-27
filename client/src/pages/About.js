@@ -12,15 +12,15 @@ import graciela from '../images/graciela.png'
 
 function About() {
   return (
-    <div>
+    <div id="aboutbg">
       <div className="container">
       <main className="row">
-            <div className="card">
+            <div className="card" id="description">
               <h1 className="title" id="title">Ounce Counts Creators</h1>
             <hr />
               <div className="card-body">
               Introducing the creators of Ounce Counts. <br></br>We are a team of full stack engineering students who set out on an adventure to
-              help you pack safely for yours. <br></br>Navigate your way through our application to build a backpack or wolfpack for those of you traveling in groups.
+              help you pack safely for yours. <br></br>Navigate your way through our application to build a backpack or create a wolfpack for you and your gang.
             </div>
             </div>
             <div className="row">

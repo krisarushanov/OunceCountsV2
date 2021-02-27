@@ -8,7 +8,7 @@ function Card(props) {
   
 
   useEffect(() => {
-    axios.post("/api/alphapack")
+    axios.get("/api/alphapack")
       .then(res => { 
         console.log(res) 
       })
