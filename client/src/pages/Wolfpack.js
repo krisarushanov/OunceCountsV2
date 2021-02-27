@@ -15,7 +15,7 @@ const Wolfpack = (props) => {
         <div className="container-fluid">
             <Jumbotron >
                 <img className="img-fluid float-center profile-pic" src={profile} alt="profile" id="profile" />
-                <h1>Wolfpack Name: Adeventure Time</h1>
+                <h1>Wolfpack Name: Adventure Time</h1>
                 <h2>Alpha: Harry White</h2>
             </Jumbotron>
             <BackpackLink />
