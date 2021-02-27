@@ -6,30 +6,29 @@
 
 ## Table of Contents
 
-- [About the Project](https://github.com/Jessica264365/Find-A-Hike#about-the-project)
-  - [Built With](https://github.com/Jessica264365/Find-A-Hike#built-with)
+- [About the Project](https://github.com/daniarinker/OunceCounts#about-the-project)
+  - [Built With](https://github.com/daniarinker/OunceCounts#built-with)
 
-* [Start Your Own](https://github.com/Jessica264365/Find-A-Hike#start-your-own)
-  - [Prerequisites](https://github.com/Jessica264365/Find-A-Hike#prerequisites)
-  - [Installation](https://github.com/Jessica264365/Find-A-Hike#installation)
+* [Start Your Own](https://github.com/daniarinker/OunceCounts#start-your-own)
+  - [Prerequisites](https://github.com/daniarinker/OunceCounts#prerequisites)
+  - [Installation](https://github.com/daniarinker/OunceCounts#installation)
 
-- [License](https://github.com/Jessica264365/Find-A-Hike#license)
-- [Roadmap](https://github.com/Jessica264365/Find-A-Hike#roadmap)
-- [Contribute](https://github.com/Jessica264365/Find-A-Hike#contribute)
-- [My Contact Information](https://github.com/Jessica264365/Find-A-Hike#my-contact-information)
+- [License](https://github.com/daniarinker/OunceCounts#license)
+- [Roadmap](https://github.com/daniarinker/OunceCounts#roadmap)
+- [Contribute](https://github.com/daniarinker/OunceCounts#contribute)
+- [My Contact Information](https://github.com/daniarinker/OunceCounts#my-contact-information)
 
 ## About the Project
-For this Project we were tasked with making a React application that used 2 libraries/ technologies that we have not yet used or been taught in class. Our group decided 
+For this Project we were tasked with making a React application that used 2 libraries/ technologies that we have not yet used or been taught in class. Our group decided to create a backpack logger. A user is able to both sign in and sign up using the library firebase (which handles the user's authentication). When logged in the user is able to add an emergency contact. OunceCounts enables the user to keep track of planned adventures, specifically of what is inside of their back pack. They are able to add multiple poeple forming a wolfpack and sharing information about what they have planned to take along with them in their voyage. User is able to edit their backpacks.  
 
 
 
-For this project we were tasked with making a website that used two APIs. Our group decided to create a hike locator. We used the [hikingproject.com](https://www.hikingproject.com/data) API and the Google Geocoding API to make this possible. The hiking project API needed a latitude and longitude for the ajax call. When the user types a city name in the search bar an ajax call is made to the Google Geocoding API to get the latitude and longitude of the city. This is then used in the ajax call to the hiking project API. The results are displayed for the user along with some information about the hike such as brief summary and the length of the trail. The user has the option to add the hike to a list of favorites that is saved in local storage. When the favorites button is clicked the list of favorites is displayed to the user. If a favorite is accidentally added there is an option to delete it from the list. There are also buttons that show the users previous 3 searches in case they wanted to look at more hikes in those areas.
 
-![](/images/hikelocator1.PNG)
+![]( )
 
 ### Built With
 
-We used the react library, firebase, axios, Mysql, bootstrap and Github. 
+We used the react library, firebase, axios, Mysql, bootstrap and soket.io. 
 
 ## Start Your Own
 
