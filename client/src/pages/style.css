@@ -60,3 +60,14 @@
   right: 50%;
   left: 35%;
   }
+
+  #aboutbg{
+    background-image: url("https://unsplash.com/photos/cmNC6XStsIw")
+  }
+
+
+    
+  #profile {
+    height: 100px;
+    width: 100px;
+  }
