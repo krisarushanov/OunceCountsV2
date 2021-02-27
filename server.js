@@ -2,40 +2,40 @@ const express = require(`express`);
 const app = express();
 // const session = require(`express-session`);
 // firebase authentication?
+const http = require("http");
+const socketIo = require("socket.io");
 const routes = require("./routes");
-const server = require("http").createServer();
-const io = require("socket.io")(server, {
-  cors: {
-    origin: "*",
-  },
-});
-
+const index = require("./routes/socket");
 
 
 const db = require('./models');
 
 const PORT = process.env.PORT || 3001;
-const NEW_CHAT_MESSAGE_EVENT = "newChatMessage";
 
-io.on("connection", (socket) => {
-  console.log(`Client ${socket.id} connected`);
+app.use(index);
 
-  // Join a conversation
-  const { roomId } = socket.handshake.query;
-  socket.join(roomId);
 
-  // Listen for new messages
-  socket.on(NEW_CHAT_MESSAGE_EVENT, (data) => {
-    io.in(roomId).emit(NEW_CHAT_MESSAGE_EVENT, data);
-  });
+const server = http.createServer(app);
+const io = socketIo(server); // < Interesting!
+const getApiAndEmit = async socket => {
+    try{
+      socket.emit("FromAPI", res.data.currently.temperature); // Emitting a new message. It will be consumed by the client
+    } catch (error) {
+      console.error(`Error: ${error.code}`);
+    }
+  };
 
-  // Leave the room if the user closes the socket
-  socket.on("disconnect", () => {
-    console.log(`Client ${socket.id} diconnected`);
-    socket.leave(roomId);
-  });
+let interval;
+io.on("connection", socket => {
+ console.log("New client connected");
+ if (interval) {
+ clearInterval(interval);
+ }
+ interval = setInterval(() => getApiAndEmit(socket), 10000);
+ socket.on("disconnect", () => {
+ console.log("Packmember disconnected");
+ });
 });
-
 
 
 // Define middleware here

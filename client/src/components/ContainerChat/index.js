@@ -1,39 +1,19 @@
-import { useEffect, useRef, useState } from "react";
-import socketIOClient from "socket.io-client";
+import React, { Component } from "react";
+// import "./App.css";
 
-const NEW_CHAT_MESSAGE_EVENT = "newChatMessage";
-const SOCKET_SERVER_URL = "http://localhost:3001";
+class Chat extends Component {
 
-const useChat = (roomId) => {
-  const [messages, setMessages] = useState([]);
-  const socketRef = useRef();
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <h1 className="App-title">Welcome to React</h1>
+        </header>
+        <p className="App-intro"> Let's Chat!
+        </p>
+      </div>
+    );
+  }
+}
 
-  useEffect(() => {
-    socketRef.current = socketIOClient(SOCKET_SERVER_URL, {
-      query: { roomId },
-    });
-
-    socketRef.current.on(NEW_CHAT_MESSAGE_EVENT, (message) => {
-      const incomingMessage = {
-        ...message,
-        ownedByCurrentUser: message.senderId === socketRef.current.id,
-      };
-      setMessages((messages) => [...messages, incomingMessage]);
-    });
-
-    return () => {
-      socketRef.current.disconnect();
-    };
-  }, [roomId]);
-
-  const sendMessage = (messageBody) => {
-    socketRef.current.emit(NEW_CHAT_MESSAGE_EVENT, {
-      body: messageBody,
-      senderId: socketRef.current.id,
-    });
-  };
-
-  return { messages, sendMessage };
-};
-
-export default useChat;
+export default Chat;
