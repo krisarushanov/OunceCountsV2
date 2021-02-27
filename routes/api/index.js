@@ -6,7 +6,7 @@ const wolfpackBackpackRoutes = require("./backpack");
 
 
 //alpha wolfpack routes
-router.use("/wolfpackInfo", wolfpackRoutes);
+router.use("/wolfpackInfo", wolfpackInfoRoutes);
 // define user routes
 // router.use("/user", userRoutes);
 // define wolfpack-backpack-routes routes
