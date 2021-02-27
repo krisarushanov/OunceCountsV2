@@ -5,7 +5,6 @@ import About from './pages/About';
 import Backpack from './pages/Backpack';
 import Alphapack from './pages/Alphapack';
 import Wolfpack from './pages/Wolfpack';
-
 //import Sandbox from './pages/Sandbox';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
