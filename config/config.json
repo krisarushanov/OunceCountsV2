@@ -1,14 +1,16 @@
 {
   "development": {
     "username": "root",
+
     "password": "elemelon23",
+
     "database": "ouncecounts",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": "Yogi122998",
+    "password": "",
     "database": "ouncecounts_test",
     "host": "127.0.0.1",
     "dialect": "mysql"

@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable jsx-a11y/no-redundant-roles */
 import React from 'react';
 import Todo from "../components/Backpack/Todo";
 import '../components/Backpack/index.css';
@@ -16,14 +18,14 @@ function Backpack(props) {
     return (
    <Container>
     
-        <div className="todoapp stack-large">
+        <div className="todoapp stack-large" id="backpack">
          <Form addTask={addTask} />
           <div className="filters btn-group stack-exception">
             <FilterButton />
             <FilterButton />
             <FilterButton />
           </div>
-          <h2 id="list-heading">Items in you Backpack</h2>
+          <h2 id="list-heading">Items in your Backpack</h2>
           <ul
             role="list"
             className="todo-list stack-large stack-exception"
