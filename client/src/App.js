@@ -21,7 +21,6 @@ function App() {
         <Route path="/alphapack" component={Alphapack}/>
         <Route path="/backpack" component={Backpack}/>
         <Route path="/wolfpack" component={Wolfpack}/>
-      
         
 
       </Switch>
