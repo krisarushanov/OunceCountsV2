@@ -1,7 +1,7 @@
-import { useState, useEffect, useContext } from "react";
-import { Form, Button, Alert } from "react-bootstrap";
-import { Link, useHistory } from "react-router-dom";
-import axios from "axios";
+import { useState, useEffect, useContext } from "./node_modules/react";
+import { Form, Button, Alert } from "./node_modules/react-bootstrap";
+import { Link, useHistory } from "./node_modules/react-router-dom";
+import axios from "./node_modules/axios";
 import { signup, UserContext } from "./UserProvider";
 
 export function SignupForm() {
