@@ -65,6 +65,9 @@
     background-image: url("https://unsplash.com/photos/cmNC6XStsIw")
   }
 
-  #description {
+
     
+  #profile {
+    height: 100px;
+    width: 100px;
   }
