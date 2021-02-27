@@ -11,8 +11,9 @@ import Form from '../components/Backpack/Form';
 import FilterButton from '../components/Backpack/FilterButton';
 import Todo from "../components/Backpack/Todo";
 
-function addTask(name) {
-    alert(name);
+function addWolf(event) {
+    const { fName, lName } = event.target;
+    set
 }
 
 function Alphapack () {
@@ -36,7 +37,7 @@ function Alphapack () {
                             <input type="text" className="form-control" placeholder="Pack Member's Email" aria-label="Pack Member's Email"
                             aria-describedby="basic-addon2"></input>
                             <div className="input-grou-append">
-                                <button className="btn btn-outline-secondary" type="button">ADD A WOLF</button>
+                                <button onClick={}></button> <button className="btn btn-outline-secondary" type="button">ADD A WOLF</button>
                             </div>
                         </div>
                     </div>
