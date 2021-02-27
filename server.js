@@ -5,14 +5,14 @@ const app = express();
 const http = require("http");
 const socketIo = require("socket.io");
 const routes = require("./routes");
-const index = require("./routes/socket");
+// const index = require("./routes/socket");
 
 
 const db = require('./models');
 
 const PORT = process.env.PORT || 3001;
 
-app.use(index);
+// app.use(index);
 
 
 const server = http.createServer(app);
