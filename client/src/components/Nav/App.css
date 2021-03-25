@@ -3,7 +3,8 @@ nav {
     /* justify-content: space-around; */
     /* align-items: right; */
     /* min-height: 10px; */
-    background: #202020;
+
+    background: #5483b9;
     color: white;
     padding-top: 20px;
     padding-left: 30px; 
@@ -16,7 +17,6 @@ nav {
     text-align: center;
     list-style: none;
     padding: 10px;
-    color-adjust: white;
   }
 
   
