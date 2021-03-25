@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import Nav from './components/Nav/Nav';
+import Landing from './pages/Landing';
 import Home from './pages/Home';
 import About from './pages/About';
 import Backpack from './pages/Backpack';
@@ -17,6 +18,7 @@ function App() {
       <Switch>
       {/* <Route exact path="/" component={Login} /> */}
         {/* <Route path ="/sandbox" component={Sandbox}/> */}
+        <Route exact path="/" component={Landing}/>
         <Route path="/home" component={Home}/>
         <Route path="/about" component={About}/>
         <Route path="/alphapack" component={Alphapack}/>
