@@ -15,7 +15,7 @@ function Nav() {
             <li>About</li>
             </Link>
             <Link to="/alphapack">
-            <li>Alpha Wolfpack Backpack</li>
+            <li>Alpha Backpack</li>
             </Link>
             <Link to="/backpack">
             <li>Backpack</li>
