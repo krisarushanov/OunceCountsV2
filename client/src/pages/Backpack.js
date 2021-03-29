@@ -17,9 +17,9 @@ function Backpack(props) {
         <div className="col-md-5" id="colOne"> 
         <div className="card mb-4" id="cardOne">
         <div className="card-body"  > 
-        <h1 style={{fontSize:"50px",fontWeight:"800", letterSpacing: "1.13px"}}>Pack your backpack</h1>
-        <h2 style={{fontSize:"25px"}} >Tailor your list based on considerations such as weather,
-          duration, and distance. Add, Edit and Remove items from your bag. 
+        <h1 style={{fontSize:"50px",fontWeight:"800", letterSpacing: "1.13px"}}></h1>
+        <h2 style={{fontSize:"30px", padding:'30px'}} >Tailor your list based on considerations such as weather,
+          duration, and distance.  
         </h2>
         </div>
         </div>
@@ -27,9 +27,8 @@ function Backpack(props) {
          <div className="col-md-5" id="colTwo"> 
           <div className="card mb-4"id="cardTwo" >
             <div className="card-body"  > 
-              <h1 style={{fontSize:"50px",fontWeight:"800", letterSpacing: "1.13px"}}>Wolfpack</h1>
-              <h2 style={{fontSize:"25px"}} >Collaborate on your adventure Backpack
-              with your Wolfpack to stay safe and avoid overpacking.</h2>
+              <h1 style={{fontSize:"50px",fontWeight:"800", letterSpacing: "1.13px"}}></h1>
+              <h2 style={{fontSize:"30px", padding:'70px'}} >Add, Edit and Remove items from your bag.</h2>
         </div>
           </div>
             </div>
