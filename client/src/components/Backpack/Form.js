@@ -6,6 +6,7 @@ function Form(props) {
     <form>
       <h2 className="label-wrapper">
         <label htmlFor="new-todo-input" className="label__lg">
+          <h1>Build your Backpack </h1><br></br>
           Enter an item:
         </label>
       </h2>

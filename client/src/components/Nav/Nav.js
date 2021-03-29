@@ -11,17 +11,17 @@ function Nav() {
            <Link to="/home">
             <li>Home</li>
             </Link>
-            <Link to="/about">
-            <li>About</li>
-            </Link>
             <Link to="/alphapack">
-            <li>Alpha Wolfpack Backpack</li>
+            <li>Alpha Backpack</li>
             </Link>
             <Link to="/backpack">
             <li>Backpack</li>
             </Link>
             <Link to ="/wolfpack">
               <li>Wolfpack</li>
+            </Link>
+            <Link to="/about">
+            <li>About</li>
             </Link>
         </ul>
     </nav>
