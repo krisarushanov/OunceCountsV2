@@ -10,7 +10,6 @@ function Landing () {
         <div className="container" id="landing">
             <h1 className="register" id="top">Register</h1>
             <h3 className="register"><small>You're on your way to creating your backpack</small></h3>
-            <hr />
             <form>
   <div className="form-group">
     <label for="exampleInputEmail1">Email address</label>
