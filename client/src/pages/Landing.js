@@ -1,12 +1,16 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import './style.css';
+import { Link } from 'react-router-dom';
 
 
 
 function Landing () {
     return (
-        <div className="container">
+        <div className="container" id="landing">
+            <h1 className="register" id="top">Register</h1>
+            <h3 className="register"><small>You're on your way to creating your backpack</small></h3>
+            <hr />
             <form>
   <div className="form-group">
     <label for="exampleInputEmail1">Email address</label>
@@ -16,9 +20,8 @@ function Landing () {
     <label for="exampleInputPassword1">Password</label>
     <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"/>
   </div>
-  <button type="Register" className="btn btn-dark" id="register">Register</button>
-  <button type="Log In" className="btn btn-dark" id="login">Log In</button>
-  <small id="loginHelp" className="form-text text-muted">Log In if you have an account with us!</small>
+  <Link to="/home"><button type="Register" className="btn btn-dark" id="register">Register</button></Link>
+  <Link to="/login"><button type="Log In" className="btn btn-dark" id="loginbutton">Log In</button></Link>
 </form>
         </div>
     );
