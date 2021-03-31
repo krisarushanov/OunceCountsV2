@@ -115,7 +115,7 @@
 
 #register {
   margin: 10px;
-}
+} 
 
 #login {
   margin: 10px;
@@ -125,7 +125,7 @@
   width: 30px;
 }
 
-form {
+#form {
   width: 400px;
   margin: 0 auto;
   padding-top: 50px;
@@ -179,4 +179,4 @@ form {
     overflow: auto;
     position: fixed;
     top: 130px;
-}
+} 
