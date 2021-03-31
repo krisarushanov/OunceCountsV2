@@ -10,7 +10,7 @@ function Landing () {
         <div className="container" id="landing">
             <h1 className="register" id="top">Register</h1>
             <h3 className="register"><small>You're on your way to creating your backpack</small></h3>
-            <form>
+            <form id="form">
   <div className="form-group">
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Login () {
     return (
         <div className="container" id="login">
-            <form>
+            <form id="form">
   <div className="form-group">
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
