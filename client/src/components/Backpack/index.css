@@ -10,46 +10,46 @@
 html {
   font: 62.5% / 1.15 sans-serif;
 }
-#colOne {
-margin-top: 20px;
-}
-#cardOne {
+
+#backpackCardOne {
   font-family: Arial, sans-serif;
-  background-image: url(../../images/water.jpg);
+  background-color: #763626;
   color:#f5f5f5;
-  background-size: 520px;
-  height: 270px;
+  width: 70%;
+  margin-top: 5%;
+  flex-direction: column;
 }
-#cardTwo {
-  font-family: Arial, sans-serif;
- background-image: url(../../images/hike.jpg);
-  background-size: 470px;
-  color:#f5f5f5;
-  width: 450px;
-  height: 270px;
+  
+#backpackHome {
+      
+  background-image: url(../../images/hike.jpg);
+  max-width: 100%;
+  height: auto;
+  background-position: 30% 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: "5483B9";
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 130px;
+  -o-object-fit: contain;
+  object-fit: contain;
+
 }
 h1,
 h2 {
   margin-bottom: 0;
+  font-weight: 800;
 }
 ul {
   list-style: none;
   padding: 0;
 }
-/* button {
-  border: none;
-  margin: 0;
-  padding: 0;
-  width: auto;
-  overflow: visible;
-  background: transparent;
-  color: inherit;
-  font: inherit;
-  line-height: normal;
-  -webkit-font-smoothing: inherit;
-  -moz-osx-font-smoothing: inherit;
-  -webkit-appearance: none;
-} */
+
 button,
 input,
 optgroup,

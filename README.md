@@ -21,7 +21,9 @@
 ## About the Project
 For this Project we were tasked with making a React application that used 2 libraries/ technologies that we have not yet used or been taught in class. Our group decided to create a backpack logger. A user is able to both sign in and sign up using the library firebase (which handles the user's authentication). When logged in the user is able to add an emergency contact. OunceCounts enables the user to keep track of planned adventures, specifically of what is inside of their back pack. They are able to add multiple poeple forming a wolfpack and sharing information about what they have planned to take along with them in their voyage. User is able to edit their backpacks.  
 
+## Features
 
+Ounce Counts is a digital backpack checklist tool. The app features mobile responsive pages and Facebook share capabilities. 
 
 
 ![]( )
@@ -68,7 +70,7 @@ If you are interesting in contributing to this project please follow these steps
 
 Emails:
 
-- Jaira Lynn: arcilla.jaira@gmail.com
+- Jaira Arcilla: arcilla.jaira@gmail.com
 - Dania Rinker: daniasrinker@gmail.com
 - Kris Arushanov: kris.arushanov@gmail.com
 - Graciela Garcia: 23graciela.garcia@gmail.com
@@ -81,7 +83,7 @@ GitHub Pages:
 - [Kris Arushanov](https://github.com/krisarushanov)
 - [Dania Rinker](https://github.com/daniarinker)
 - [Graciela Garcia](https://github.com/graciela23garcia)
-- [Jaira Lynn](https://github.com/jairalynn)
+- [Jaira Arcilla](https://github.com/jairalynn)
 - [Jaimie Valle](https://github.com/graciela23garcia)
 
 Link to project: https://github.com/daniarinker/OunceCounts

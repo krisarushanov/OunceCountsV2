@@ -8,17 +8,20 @@ function Nav() {
       <img src="/logo512.png" width="30" height="30" className="d-inline-block align-top" alt="Ounce Counts" id="logo"/>
         <h3 class="logo">OunceCounts</h3>
         <ul className="nav-links">
-            <Link to="/about">
-            <li>About</li>
+           <Link to="/home">
+            <li>Home</li>
             </Link>
             <Link to="/alphapack">
-            <li>Alpha Wolfpack Backpack</li>
+            <li>Alpha Backpack</li>
             </Link>
             <Link to="/backpack">
             <li>Backpack</li>
             </Link>
             <Link to ="/wolfpack">
               <li>Wolfpack</li>
+            </Link>
+            <Link to="/about">
+            <li>About</li>
             </Link>
         </ul>
     </nav>
