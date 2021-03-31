@@ -19,18 +19,7 @@ html {
   margin-top: 5%;
   flex-direction: column;
 }
-
-#socialLogo{
-  width: 20vw;
-  height: 13vh;
-  background-image: url(../../images/sociallogo2.PNG);
-  background-size: cover;
-  background-position: center;
-  margin-top: 5%;
-  flex-direction: column;
-  margin-bottom: 5%;
   
-}
 #backpackHome {
       
   background-image: url(../../images/hike.jpg);
