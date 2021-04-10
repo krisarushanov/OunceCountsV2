@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+.card {
+    display: inline;
+    display: block;
+  }
+  
+  .card-body {
+    text-align: center;
+    position: center;
+  }
+  
+  #homeButton {
+    margin-top: 1%;
+    align-content:'center';
+    background-color: #5483b9;
+    opacity:.9;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    
+  }
+
+  #homePageTitle {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    
+  }
+  #homePageText {
+    color: white;
+    size: 40px;
+  }
+  #homePage {
+    
+    background-image: url(../images/hike.jpg);
+    max-width: 100%;
+    height: auto;
+    background-position: 30% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: "5483B9";
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 130px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+  
+  #picture {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    padding: 40px;
+  }
+  
+  .bio {
+    float: right;
+    padding: 20px;
+    padding-top: 150px;
+  
+  }
+
+  #members {
+    padding: 50px;
+    border: 5px;
+  }
+
+  #search {
+    padding: 100px;
+  }
+
+  #packmember {
+    padding: 50px;
+  }
+
+  #backpack {
+    /* position: center; */
+    position: center;
+    left:30%;
+    top:30%;
+  }
+  #wolves {
+    text-align: center;
+    text-align-last: center;
+  }
+
+  #backpack {
+    align-content:center;
+    max-width:70rem;
+  background: #fff;
+  margin: 2rem 0 4rem 0;
+  padding: 1rem;
+  position: center;
+  right: 50%;
+  left: 35%;
+  }
+
+  #aboutbg{
+    background-image: url("https://unsplash.com/photos/cmNC6XStsIw")
+  }
+    
+  #profile {
+    height: 100px;
+    width: 100px;
+  }
+
+#register {
+  margin: 10px;
+} 
+
+#login {
+  margin: 10px;
+}
+
+
+#form {
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 50px;
+  height: 400px;
+  color: #5483b9;
+  text-align: center;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+
+.register {
+  text-align: center;
+  color: #5483b9;
+}
+
+#top {
+  padding-top: 50px;
+}
+
+#landing {
+  background-image: url("../images/standup.jpg");
+  max-width: 100%;
+    max-height: 100%;
+    background-size: 1400px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    margin: auto;
+    overflow: auto;
+    position: fixed;
+    top: 130px;
+}
+
+#login {
+  background-image: url("../images/landingimage.jpg");
+  max-width: 100%;
+    max-height: 100%;
+    background-size: 1400px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    margin: auto;
+    overflow: auto;
+    position: fixed;
+    top: 130px;
+} 
